@@ -1,7 +1,28 @@
 # Resume Matcher and Top Skills for Data Scientists and Analysts
 
-## Project Overview
+## Project Overview and Summary
 This repository contains a collection of scripts and tools designed to analyze job postings for Data Scientists and Data Analysts. It includes functionalities for scraping job data, extracting skills and salaries, performing sentiment analysis, and creating interactive dashboards to visualize top skills and match resumes to job descriptions.
+
+The job skill dashboard can be seen below.
+
+![Job Skills Dashboard](images/JobSkillsDash.png)
+*Job Skills Dashboard*
+
+Filtering by Visualisation tools, you can see they appear way more in analyst roles (as expected). PowerBI and Tableau are mentioned a similair amount of times among all job descriptions but PowerBI is slightly higher 31.5% of jobs vs 27.4%. So if you are trying to decide what visualisation tool to upskill on I would choose PowerBI.
+
+![Job Skills Dashboard](images/JobSkillsDash_Visualisation.png)
+*Job Skills Dashboard filtered by Visualisation Tools*
+
+Filtering by Programming skills, the most important programming language for data analyst is SQL (72.6%) vs Python (64.4%) for Data Scientists (not surprising!). 
+
+![Job Skills Dashboard](images/JobSkillsDash_Programming.png)
+*Job Skills Dashboard filtered by Progrmamming Languages*
+
+The Resume Matcher Dashboard can be seen below and looks like I have all the skills mentioned for more than one job!
+
+![Job Skills Dashboard](images/ResumeMatcherDash.png)
+*Resume Matcher Dash*
+
 
 ## Folder Structure
 The project is organized into the following scripts:
