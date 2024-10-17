@@ -3,26 +3,33 @@
 ## Project Overview and Summary
 This repository contains a collection of scripts and tools designed to analyze job postings for Data Scientists and Data Analysts. It includes functionalities for scraping job data, extracting skills and salaries, performing sentiment analysis, and creating interactive dashboards to visualize top skills and match resumes to job descriptions.
 
-The job skill dashboard can be seen below.
 
+## Findings
+
+***Job Skills Dashboard***
 ![Job Skills Dashboard](images/JobSkillsDash.png)
-*Job Skills Dashboard*
 
-Filtering by Visualisation tools, you can see they appear way more in analyst roles (as expected). PowerBI and Tableau are mentioned a similair amount of times among all job descriptions but PowerBI is slightly higher 31.5% of jobs vs 27.4%. So if you are trying to decide what visualisation tool to upskill on I would choose PowerBI.
+The job skills dashboard above highlights that **Python**, **SQL**, and **Communication** skills are among the top five skills for both data scientists and data analysts. If you're considering upskilling, these areas are a great place to start.
 
+
+***Job Skills Dashboard filtered by Visualisation Tools***
 ![Job Skills Dashboard](images/JobSkillsDash_Visualisation.png)
-*Job Skills Dashboard filtered by Visualisation Tools*
 
-Filtering by Programming skills, the most important programming language for data analyst is SQL (72.6%) vs Python (64.4%) for Data Scientists (not surprising!). 
+When filtering by visualization tools, it’s clear that these tools are much more prevalent in data analyst roles, which is expected, but it's interesting to have a quantitative measure of this. Among the various tools mentioned, **Power BI** and **Tableau** are mentioned the most and also are in a comparable number of job descriptions. However, Power BI has a slight edge, appearing in 31.5% of job listings compared to Tableau's 27.4%. 
 
+If you're considering which visualization tool to upskill in, Power BI is the recommended choice, given its higher prevalence in job descriptions.
+
+
+***Job Skills Dashboard filtered by Progrmamming Languages***
 ![Job Skills Dashboard](images/JobSkillsDash_Programming.png)
-*Job Skills Dashboard filtered by Progrmamming Languages*
+
+When examining the programming skills required for data analyst and data scientist positions, **SQL** stands out as the most essential language for data analysts, appearing in 72.6% of job descriptions. This indicates a strong demand for database querying and data manipulation skills. In contrast, **Python** is the top programming language for data scientists, mentioned in 64.4% of listings, reflecting its versatility in data analysis and machine learning applications. 
+
+
+***Resume Matcher***
+![Job Skills Dashboard](images/ResumeMatcherDash.png)
 
 The Resume Matcher Dashboard can be seen below and looks like I have all the skills mentioned for more than one job!
-
-![Job Skills Dashboard](images/ResumeMatcherDash.png)
-*Resume Matcher Dash*
-
 
 ## Folder Structure
 The project is organized into the following scripts:
